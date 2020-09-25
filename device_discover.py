@@ -13,7 +13,7 @@ message = "<?xml version=\"1.0\" encoding=\"utf-8\"?>" \
          "http://schemas.xmlsoap.org/ws/2005/04/discovery/Probe</wsa:Action>" \
          "</Header><Body><Probe xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" " \
          "xmlns=\"http://schemas.xmlsoap.org/ws/2005/04/discovery\">" \
-         "<Types>dn:NetworkVideoTransmitter</Types><Scopes /></Probe></Body></Envelope>"
+         "<Types>dn:NetworkVideoTransmitter</Types><Scopes/></Probe></Body></Envelope>"
 
 def getOnvifIp():
     try:
